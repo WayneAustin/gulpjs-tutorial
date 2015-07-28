@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction to gulp.js</title>
+
+    <link rel="stylesheet" href="src/styles/reset.css" />
+    <link rel="stylesheet" href="src/styles/grid.css" />
+    <link rel="stylesheet" href="src/styles/site.css" />
+    <link rel="stylesheet" href="src/styles/header.css" />
+</head>
+<body data-ng-app="app">
+    <div class="site-wrapper" data-ng-controller="homeController">
+        <header class="site-header">
+            <h1>Introduction to gulp.js</h1>
+        </header>
+        <article class="site-body">
+            {{helloMessage}}
+        </article>
+    </div>
+
+    <!-- OMG so many files to include... -->
+
+    <!-- Libs -->
+    <script src="src/libs/jquery.min.js"></script>
+    <script src="src/libs/angular.min.js"></script>
+    <script src="src/libs/angular-animate.min.js"></script>
+    <script src="src/libs/angular-touch.min.js"></script>
+
+    <!-- Custom -->
+    <script src="src/js/app.js"></script>
+    <script src="src/js/home-controller.js"></script>
+    <script src="src/js/services.js"></script>
+    <script src="src/js/directives.js"></script>
+
+</body>
+</html>

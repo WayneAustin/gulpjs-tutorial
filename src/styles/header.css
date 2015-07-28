@@ -1,0 +1,8 @@
+/** Site standards styling
+**/
+.site-header {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  padding: 12px;
+}
